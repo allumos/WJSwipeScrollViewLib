@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WJSwipeScrollViewLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'WJSwipeScrollViewLib'
 
   s.description      = <<-DESC
@@ -16,11 +16,9 @@ TODO: ScrollView嵌套ScrolloView解决方案.实现原理：http://blog.csdn.ne
                        DESC
 
   s.homepage         = 'https://github.com/allumos/WJSwipeScrollViewLib'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'amuryy@hotmail.com' => 'allumos@hotmail.com' }
   s.source           = { :git => 'https://github.com/allumos/WJSwipeScrollViewLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
