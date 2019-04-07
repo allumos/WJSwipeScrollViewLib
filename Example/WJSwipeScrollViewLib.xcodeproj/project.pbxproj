@@ -15,17 +15,17 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9050738FD978B22E75865393 /* Pods_WJSwipeScrollViewLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FF7820D60FF0A884260981 /* Pods_WJSwipeScrollViewLib_Tests.framework */; };
-		BE60F7A8225A3C92000E45AF /* WJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F79D225A3C92000E45AF /* WJLayout.swift */; };
-		BE60F7A9225A3C92000E45AF /* WJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F79E225A3C92000E45AF /* WJTableView.swift */; };
-		BE60F7AA225A3C92000E45AF /* WJCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F79F225A3C92000E45AF /* WJCollectionFlowLayout.swift */; };
-		BE60F7AB225A3C92000E45AF /* WJTableViewProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A0225A3C92000E45AF /* WJTableViewProtocal.swift */; };
-		BE60F7AC225A3C92000E45AF /* WJAdvancedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A1225A3C92000E45AF /* WJAdvancedManager.swift */; };
-		BE60F7AD225A3C92000E45AF /* WJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A2225A3C92000E45AF /* WJPageTitleView.swift */; };
-		BE60F7AE225A3C92000E45AF /* WJDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A3225A3C92000E45AF /* WJDispatchQueue.swift */; };
-		BE60F7AF225A3C92000E45AF /* WJScrollExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A4225A3C92000E45AF /* WJScrollExtension.swift */; };
-		BE60F7B0225A3C92000E45AF /* WJVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A5225A3C92000E45AF /* WJVCExtension.swift */; };
-		BE60F7B1225A3C92000E45AF /* WJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A6225A3C92000E45AF /* WJPageView.swift */; };
-		BE60F7B2225A3C92000E45AF /* WJSimpleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60F7A7225A3C92000E45AF /* WJSimpleManager.swift */; };
+		BEA76290225A52220008878A /* WJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76285225A52220008878A /* WJLayout.swift */; };
+		BEA76291225A52220008878A /* WJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76286225A52220008878A /* WJTableView.swift */; };
+		BEA76292225A52220008878A /* WJCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76287225A52220008878A /* WJCollectionFlowLayout.swift */; };
+		BEA76293225A52220008878A /* WJTableViewProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76288225A52220008878A /* WJTableViewProtocal.swift */; };
+		BEA76294225A52220008878A /* WJAdvancedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76289225A52220008878A /* WJAdvancedManager.swift */; };
+		BEA76295225A52220008878A /* WJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628A225A52220008878A /* WJPageTitleView.swift */; };
+		BEA76296225A52220008878A /* WJDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628B225A52220008878A /* WJDispatchQueue.swift */; };
+		BEA76297225A52220008878A /* WJScrollExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628C225A52220008878A /* WJScrollExtension.swift */; };
+		BEA76298225A52220008878A /* WJVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628D225A52220008878A /* WJVCExtension.swift */; };
+		BEA76299225A52220008878A /* WJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628E225A52220008878A /* WJPageView.swift */; };
+		BEA7629A225A52220008878A /* WJSimpleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628F225A52220008878A /* WJSimpleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,17 +56,17 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		87FF7820D60FF0A884260981 /* Pods_WJSwipeScrollViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJSwipeScrollViewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0C282B65611A526FD6CE44 /* Pods-WJSwipeScrollViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJSwipeScrollViewLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-WJSwipeScrollViewLib_Example/Pods-WJSwipeScrollViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BE60F79D225A3C92000E45AF /* WJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJLayout.swift; sourceTree = "<group>"; };
-		BE60F79E225A3C92000E45AF /* WJTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableView.swift; sourceTree = "<group>"; };
-		BE60F79F225A3C92000E45AF /* WJCollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJCollectionFlowLayout.swift; sourceTree = "<group>"; };
-		BE60F7A0225A3C92000E45AF /* WJTableViewProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableViewProtocal.swift; sourceTree = "<group>"; };
-		BE60F7A1225A3C92000E45AF /* WJAdvancedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJAdvancedManager.swift; sourceTree = "<group>"; };
-		BE60F7A2225A3C92000E45AF /* WJPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageTitleView.swift; sourceTree = "<group>"; };
-		BE60F7A3225A3C92000E45AF /* WJDispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJDispatchQueue.swift; sourceTree = "<group>"; };
-		BE60F7A4225A3C92000E45AF /* WJScrollExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJScrollExtension.swift; sourceTree = "<group>"; };
-		BE60F7A5225A3C92000E45AF /* WJVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJVCExtension.swift; sourceTree = "<group>"; };
-		BE60F7A6225A3C92000E45AF /* WJPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageView.swift; sourceTree = "<group>"; };
-		BE60F7A7225A3C92000E45AF /* WJSimpleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJSimpleManager.swift; sourceTree = "<group>"; };
+		BEA76285225A52220008878A /* WJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJLayout.swift; sourceTree = "<group>"; };
+		BEA76286225A52220008878A /* WJTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableView.swift; sourceTree = "<group>"; };
+		BEA76287225A52220008878A /* WJCollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		BEA76288225A52220008878A /* WJTableViewProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableViewProtocal.swift; sourceTree = "<group>"; };
+		BEA76289225A52220008878A /* WJAdvancedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJAdvancedManager.swift; sourceTree = "<group>"; };
+		BEA7628A225A52220008878A /* WJPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageTitleView.swift; sourceTree = "<group>"; };
+		BEA7628B225A52220008878A /* WJDispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJDispatchQueue.swift; sourceTree = "<group>"; };
+		BEA7628C225A52220008878A /* WJScrollExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJScrollExtension.swift; sourceTree = "<group>"; };
+		BEA7628D225A52220008878A /* WJVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJVCExtension.swift; sourceTree = "<group>"; };
+		BEA7628E225A52220008878A /* WJPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageView.swift; sourceTree = "<group>"; };
+		BEA7628F225A52220008878A /* WJSimpleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJSimpleManager.swift; sourceTree = "<group>"; };
 		D927200371FCC2D6AD1A32DA /* Pods-WJSwipeScrollViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJSwipeScrollViewLib_Example.release.xcconfig"; path = "Target Support Files/Pods-WJSwipeScrollViewLib_Example/Pods-WJSwipeScrollViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3860F6185BE2324D64DA4C9 /* Pods_WJSwipeScrollViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJSwipeScrollViewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -135,7 +135,7 @@
 		607FACD21AFB9204008FA782 /* Example for WJSwipeScrollViewLib */ = {
 			isa = PBXGroup;
 			children = (
-				BE60F79C225A3C92000E45AF /* Lib */,
+				BEA76284225A52220008878A /* Lib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -182,20 +182,20 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		BE60F79C225A3C92000E45AF /* Lib */ = {
+		BEA76284225A52220008878A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				BE60F79D225A3C92000E45AF /* WJLayout.swift */,
-				BE60F79E225A3C92000E45AF /* WJTableView.swift */,
-				BE60F79F225A3C92000E45AF /* WJCollectionFlowLayout.swift */,
-				BE60F7A0225A3C92000E45AF /* WJTableViewProtocal.swift */,
-				BE60F7A1225A3C92000E45AF /* WJAdvancedManager.swift */,
-				BE60F7A2225A3C92000E45AF /* WJPageTitleView.swift */,
-				BE60F7A3225A3C92000E45AF /* WJDispatchQueue.swift */,
-				BE60F7A4225A3C92000E45AF /* WJScrollExtension.swift */,
-				BE60F7A5225A3C92000E45AF /* WJVCExtension.swift */,
-				BE60F7A6225A3C92000E45AF /* WJPageView.swift */,
-				BE60F7A7225A3C92000E45AF /* WJSimpleManager.swift */,
+				BEA76285225A52220008878A /* WJLayout.swift */,
+				BEA76286225A52220008878A /* WJTableView.swift */,
+				BEA76287225A52220008878A /* WJCollectionFlowLayout.swift */,
+				BEA76288225A52220008878A /* WJTableViewProtocal.swift */,
+				BEA76289225A52220008878A /* WJAdvancedManager.swift */,
+				BEA7628A225A52220008878A /* WJPageTitleView.swift */,
+				BEA7628B225A52220008878A /* WJDispatchQueue.swift */,
+				BEA7628C225A52220008878A /* WJScrollExtension.swift */,
+				BEA7628D225A52220008878A /* WJVCExtension.swift */,
+				BEA7628E225A52220008878A /* WJPageView.swift */,
+				BEA7628F225A52220008878A /* WJSimpleManager.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -375,18 +375,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE60F7A9225A3C92000E45AF /* WJTableView.swift in Sources */,
-				BE60F7B2225A3C92000E45AF /* WJSimpleManager.swift in Sources */,
-				BE60F7AF225A3C92000E45AF /* WJScrollExtension.swift in Sources */,
-				BE60F7A8225A3C92000E45AF /* WJLayout.swift in Sources */,
-				BE60F7AB225A3C92000E45AF /* WJTableViewProtocal.swift in Sources */,
-				BE60F7AD225A3C92000E45AF /* WJPageTitleView.swift in Sources */,
+				BEA76291225A52220008878A /* WJTableView.swift in Sources */,
+				BEA7629A225A52220008878A /* WJSimpleManager.swift in Sources */,
+				BEA76297225A52220008878A /* WJScrollExtension.swift in Sources */,
+				BEA76290225A52220008878A /* WJLayout.swift in Sources */,
+				BEA76293225A52220008878A /* WJTableViewProtocal.swift in Sources */,
+				BEA76295225A52220008878A /* WJPageTitleView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				BE60F7AA225A3C92000E45AF /* WJCollectionFlowLayout.swift in Sources */,
-				BE60F7B0225A3C92000E45AF /* WJVCExtension.swift in Sources */,
-				BE60F7B1225A3C92000E45AF /* WJPageView.swift in Sources */,
-				BE60F7AC225A3C92000E45AF /* WJAdvancedManager.swift in Sources */,
-				BE60F7AE225A3C92000E45AF /* WJDispatchQueue.swift in Sources */,
+				BEA76292225A52220008878A /* WJCollectionFlowLayout.swift in Sources */,
+				BEA76298225A52220008878A /* WJVCExtension.swift in Sources */,
+				BEA76299225A52220008878A /* WJPageView.swift in Sources */,
+				BEA76294225A52220008878A /* WJAdvancedManager.swift in Sources */,
+				BEA76296225A52220008878A /* WJDispatchQueue.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,7 +481,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -529,7 +529,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -545,7 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -560,7 +560,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -581,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJSwipeScrollViewLib_Example.app/WJSwipeScrollViewLib_Example";
 			};
 			name = Debug;
@@ -599,7 +599,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJSwipeScrollViewLib_Example.app/WJSwipeScrollViewLib_Example";
 			};
 			name = Release;

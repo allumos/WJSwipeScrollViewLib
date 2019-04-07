@@ -14,20 +14,20 @@ public protocol WJTableViewProtocal { }
 public extension WJTableViewProtocal {
     
     private func configIdentifier(_ identifier: inout String) -> String {
-        var index = identifier.firstIndex(of: ".")
+        var index = identifier.index(of: ".")
         guard index != nil else { return identifier }
         index = identifier.index(index!, offsetBy: 1)
         identifier = String(identifier[index! ..< identifier.endIndex])
         return identifier
     }
     
-    func registerCell(_ tableView: UITableView, _ cellCls: AnyClass) {
+    public func registerCell(_ tableView: UITableView, _ cellCls: AnyClass) {
         var identifier = NSStringFromClass(cellCls)
         identifier = configIdentifier(&identifier)
         tableView.register(cellCls, forCellReuseIdentifier: identifier)
     }
     
-    func cellWithTableView<T: UITableViewCell>(_ tableView: UITableView) -> T {
+    public func cellWithTableView<T: UITableViewCell>(_ tableView: UITableView) -> T {
         var identifier = NSStringFromClass(T.self)
         identifier = configIdentifier(&identifier)
         var cell = tableView.dequeueReusableCell(withIdentifier: identifier)
@@ -37,14 +37,14 @@ public extension WJTableViewProtocal {
         return cell as! T
     }
     
-    func tableViewConfig(_ delegate: UITableViewDelegate, _ dataSource: UITableViewDataSource, _ style: UITableView.Style?) -> UITableView  {
+    public func tableViewConfig(_ delegate: UITableViewDelegate, _ dataSource: UITableViewDataSource, _ style: UITableViewStyle?) -> UITableView  {
         let tableView = UITableView(frame:  CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height), style: style ?? .plain)
         tableView.delegate = delegate
         tableView.dataSource = dataSource
         return tableView
     }
     
-    func tableViewConfig(_ frame: CGRect ,_ delegate: UITableViewDelegate, _ dataSource: UITableViewDataSource, _ style: UITableView.Style?) -> UITableView  {
+    public func tableViewConfig(_ frame: CGRect ,_ delegate: UITableViewDelegate, _ dataSource: UITableViewDataSource, _ style: UITableViewStyle?) -> UITableView  {
         let tableView = UITableView(frame: frame, style: style ?? .plain)
         tableView.delegate = delegate
         tableView.dataSource = dataSource
