@@ -8,20 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WJSwipeScrollViewLib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WJSwipeScrollViewLib.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.1.1'
+  s.summary          = 'WJSwipeScrollViewLib'
 
   s.description      = <<-DESC
 TODO: ScrollView嵌套ScrolloView解决方案.实现原理：http://blog.csdn.net/glt_code/article/details/78576628,当前库只为方便自己使用,如有需要请联系原作者
                        DESC
 
-  s.homepage         = 'https://github.com/amuryy@hotmail.com/WJSwipeScrollViewLib'
+  s.homepage         = 'https://github.com/allumos/WJSwipeScrollViewLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'amuryy@hotmail.com' => 'allumos@hotmail.com' }
@@ -31,12 +25,5 @@ TODO: ScrollView嵌套ScrolloView解决方案.实现原理：http://blog.csdn.ne
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Example/WJSwipeScrollViewLib/Lib/**/*'
-  
-  # s.resource_bundles = {
-  #   'WJSwipeScrollViewLib' => ['WJSwipeScrollViewLib/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
