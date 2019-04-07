@@ -130,14 +130,14 @@ extension WJPageView {
     public func wj_createViewController(_ index: Int)  {
         let VC = viewControllers[index]
         guard let currentViewController = currentViewController else { return }
-        if currentViewController.childViewControllers.contains(VC) {
+        if currentViewController.children.contains(VC) {
             return
         }
         var viewControllerY: CGFloat = 0.0
         layout.isSinglePageView ? viewControllerY = 0.0 : (viewControllerY = layout.sliderHeight)
         VC.view.frame = CGRect(x: scrollView.bounds.width * CGFloat(index), y: viewControllerY, width: scrollView.bounds.width, height: scrollView.bounds.height)
         scrollView.addSubview(VC.view)
-        currentViewController.addChildViewController(VC)
+        currentViewController.addChild(VC)
         VC.automaticallyAdjustsScrollViewInsets = false
         addChildVcBlock?(index, VC)
         if let wj_scrollView = VC.wj_scrollView {
