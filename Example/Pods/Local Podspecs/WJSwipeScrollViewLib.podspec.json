@@ -1,0 +1,22 @@
+{
+  "name": "WJSwipeScrollViewLib",
+  "version": "0.1.0",
+  "summary": "A short description of WJSwipeScrollViewLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/amuryy@hotmail.com/WJSwipeScrollViewLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amuryy@hotmail.com": "allumos@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/amuryy@hotmail.com/WJSwipeScrollViewLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WJSwipeScrollViewLib/Classes/**/*"
+}

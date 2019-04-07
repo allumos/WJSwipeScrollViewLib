@@ -1,0 +1,16 @@
+PODS:
+  - WJSwipeScrollViewLib (0.1.0)
+
+DEPENDENCIES:
+  - WJSwipeScrollViewLib (from `../`)
+
+EXTERNAL SOURCES:
+  WJSwipeScrollViewLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJSwipeScrollViewLib: c54334854a9818604b3896355777ca6422ac0c49
+
+PODFILE CHECKSUM: 72fc92aeb03f4de9eb3cd648a163154f45863957
+
+COCOAPODS: 1.6.1

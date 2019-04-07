@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WJSwipeScrollViewLib_Example' do
+  pod 'WJSwipeScrollViewLib', :path => '../'
+
+  target 'WJSwipeScrollViewLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

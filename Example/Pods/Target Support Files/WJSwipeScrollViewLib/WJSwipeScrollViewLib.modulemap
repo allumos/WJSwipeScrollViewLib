@@ -1,0 +1,6 @@
+framework module WJSwipeScrollViewLib {
+  umbrella header "WJSwipeScrollViewLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
