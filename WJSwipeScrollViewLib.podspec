@@ -21,7 +21,7 @@ TODO: ScrollView嵌套ScrolloView解决方案.实现原理：http://blog.csdn.ne
   s.author           = { 'amuryy@hotmail.com' => 'allumos@hotmail.com' }
   s.source           = { :git => 'https://github.com/allumos/WJSwipeScrollViewLib.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'Example/WJSwipeScrollViewLib/Lib/**/*'
 
