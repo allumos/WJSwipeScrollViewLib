@@ -14,7 +14,7 @@ public protocol WJTableViewProtocal { }
 public extension WJTableViewProtocal {
     
     private func configIdentifier(_ identifier: inout String) -> String {
-        var index = identifier.index(of: ".")
+        var index = identifier.firstIndex(of: ".")
         guard index != nil else { return identifier }
         index = identifier.index(index!, offsetBy: 1)
         identifier = String(identifier[index! ..< identifier.endIndex])
