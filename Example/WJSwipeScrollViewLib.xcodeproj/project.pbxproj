@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FE94EA6226013F400C0F457 /* WJCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94E9B226013F300C0F457 /* WJCollectionFlowLayout.swift */; };
+		1FE94EA7226013F400C0F457 /* WJTableViewProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94E9C226013F300C0F457 /* WJTableViewProtocal.swift */; };
+		1FE94EA8226013F400C0F457 /* WJDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94E9D226013F300C0F457 /* WJDispatchQueue.swift */; };
+		1FE94EA9226013F400C0F457 /* WJAdvancedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94E9E226013F300C0F457 /* WJAdvancedManager.swift */; };
+		1FE94EAA226013F400C0F457 /* WJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94E9F226013F300C0F457 /* WJPageView.swift */; };
+		1FE94EAB226013F400C0F457 /* WJScrollExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94EA0226013F300C0F457 /* WJScrollExtension.swift */; };
+		1FE94EAC226013F400C0F457 /* WJSimpleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94EA1226013F400C0F457 /* WJSimpleManager.swift */; };
+		1FE94EAD226013F400C0F457 /* WJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94EA2226013F400C0F457 /* WJLayout.swift */; };
+		1FE94EAE226013F400C0F457 /* WJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94EA3226013F400C0F457 /* WJTableView.swift */; };
+		1FE94EAF226013F400C0F457 /* WJVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94EA4226013F400C0F457 /* WJVCExtension.swift */; };
+		1FE94EB0226013F400C0F457 /* WJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE94EA5226013F400C0F457 /* WJPageTitleView.swift */; };
 		546DE2FD12334BA657A2F421 /* Pods_WJSwipeScrollViewLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3860F6185BE2324D64DA4C9 /* Pods_WJSwipeScrollViewLib_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -15,17 +26,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9050738FD978B22E75865393 /* Pods_WJSwipeScrollViewLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FF7820D60FF0A884260981 /* Pods_WJSwipeScrollViewLib_Tests.framework */; };
-		BEA76290225A52220008878A /* WJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76285225A52220008878A /* WJLayout.swift */; };
-		BEA76291225A52220008878A /* WJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76286225A52220008878A /* WJTableView.swift */; };
-		BEA76292225A52220008878A /* WJCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76287225A52220008878A /* WJCollectionFlowLayout.swift */; };
-		BEA76293225A52220008878A /* WJTableViewProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76288225A52220008878A /* WJTableViewProtocal.swift */; };
-		BEA76294225A52220008878A /* WJAdvancedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA76289225A52220008878A /* WJAdvancedManager.swift */; };
-		BEA76295225A52220008878A /* WJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628A225A52220008878A /* WJPageTitleView.swift */; };
-		BEA76296225A52220008878A /* WJDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628B225A52220008878A /* WJDispatchQueue.swift */; };
-		BEA76297225A52220008878A /* WJScrollExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628C225A52220008878A /* WJScrollExtension.swift */; };
-		BEA76298225A52220008878A /* WJVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628D225A52220008878A /* WJVCExtension.swift */; };
-		BEA76299225A52220008878A /* WJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628E225A52220008878A /* WJPageView.swift */; };
-		BEA7629A225A52220008878A /* WJSimpleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7628F225A52220008878A /* WJSimpleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,17 @@
 
 /* Begin PBXFileReference section */
 		0B581B035C32224403FB5F0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1FE94E9B226013F300C0F457 /* WJCollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		1FE94E9C226013F300C0F457 /* WJTableViewProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableViewProtocal.swift; sourceTree = "<group>"; };
+		1FE94E9D226013F300C0F457 /* WJDispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJDispatchQueue.swift; sourceTree = "<group>"; };
+		1FE94E9E226013F300C0F457 /* WJAdvancedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJAdvancedManager.swift; sourceTree = "<group>"; };
+		1FE94E9F226013F300C0F457 /* WJPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageView.swift; sourceTree = "<group>"; };
+		1FE94EA0226013F300C0F457 /* WJScrollExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJScrollExtension.swift; sourceTree = "<group>"; };
+		1FE94EA1226013F400C0F457 /* WJSimpleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJSimpleManager.swift; sourceTree = "<group>"; };
+		1FE94EA2226013F400C0F457 /* WJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJLayout.swift; sourceTree = "<group>"; };
+		1FE94EA3226013F400C0F457 /* WJTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableView.swift; sourceTree = "<group>"; };
+		1FE94EA4226013F400C0F457 /* WJVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJVCExtension.swift; sourceTree = "<group>"; };
+		1FE94EA5226013F400C0F457 /* WJPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageTitleView.swift; sourceTree = "<group>"; };
 		2BCDD8EF1E864A96DAFB1FD5 /* Pods-WJSwipeScrollViewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJSwipeScrollViewLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WJSwipeScrollViewLib_Tests/Pods-WJSwipeScrollViewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		335ED66EA0D574652323E4D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3D7391E943E01C652EBDE478 /* Pods-WJSwipeScrollViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJSwipeScrollViewLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-WJSwipeScrollViewLib_Tests/Pods-WJSwipeScrollViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,17 +67,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		87FF7820D60FF0A884260981 /* Pods_WJSwipeScrollViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJSwipeScrollViewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0C282B65611A526FD6CE44 /* Pods-WJSwipeScrollViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJSwipeScrollViewLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-WJSwipeScrollViewLib_Example/Pods-WJSwipeScrollViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BEA76285225A52220008878A /* WJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJLayout.swift; sourceTree = "<group>"; };
-		BEA76286225A52220008878A /* WJTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableView.swift; sourceTree = "<group>"; };
-		BEA76287225A52220008878A /* WJCollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJCollectionFlowLayout.swift; sourceTree = "<group>"; };
-		BEA76288225A52220008878A /* WJTableViewProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJTableViewProtocal.swift; sourceTree = "<group>"; };
-		BEA76289225A52220008878A /* WJAdvancedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJAdvancedManager.swift; sourceTree = "<group>"; };
-		BEA7628A225A52220008878A /* WJPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageTitleView.swift; sourceTree = "<group>"; };
-		BEA7628B225A52220008878A /* WJDispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJDispatchQueue.swift; sourceTree = "<group>"; };
-		BEA7628C225A52220008878A /* WJScrollExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJScrollExtension.swift; sourceTree = "<group>"; };
-		BEA7628D225A52220008878A /* WJVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJVCExtension.swift; sourceTree = "<group>"; };
-		BEA7628E225A52220008878A /* WJPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJPageView.swift; sourceTree = "<group>"; };
-		BEA7628F225A52220008878A /* WJSimpleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJSimpleManager.swift; sourceTree = "<group>"; };
 		D927200371FCC2D6AD1A32DA /* Pods-WJSwipeScrollViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJSwipeScrollViewLib_Example.release.xcconfig"; path = "Target Support Files/Pods-WJSwipeScrollViewLib_Example/Pods-WJSwipeScrollViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3860F6185BE2324D64DA4C9 /* Pods_WJSwipeScrollViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJSwipeScrollViewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,17 +185,17 @@
 		BEA76284225A52220008878A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				BEA76285225A52220008878A /* WJLayout.swift */,
-				BEA76286225A52220008878A /* WJTableView.swift */,
-				BEA76287225A52220008878A /* WJCollectionFlowLayout.swift */,
-				BEA76288225A52220008878A /* WJTableViewProtocal.swift */,
-				BEA76289225A52220008878A /* WJAdvancedManager.swift */,
-				BEA7628A225A52220008878A /* WJPageTitleView.swift */,
-				BEA7628B225A52220008878A /* WJDispatchQueue.swift */,
-				BEA7628C225A52220008878A /* WJScrollExtension.swift */,
-				BEA7628D225A52220008878A /* WJVCExtension.swift */,
-				BEA7628E225A52220008878A /* WJPageView.swift */,
-				BEA7628F225A52220008878A /* WJSimpleManager.swift */,
+				1FE94E9E226013F300C0F457 /* WJAdvancedManager.swift */,
+				1FE94E9B226013F300C0F457 /* WJCollectionFlowLayout.swift */,
+				1FE94E9D226013F300C0F457 /* WJDispatchQueue.swift */,
+				1FE94EA2226013F400C0F457 /* WJLayout.swift */,
+				1FE94EA5226013F400C0F457 /* WJPageTitleView.swift */,
+				1FE94E9F226013F300C0F457 /* WJPageView.swift */,
+				1FE94EA0226013F300C0F457 /* WJScrollExtension.swift */,
+				1FE94EA1226013F400C0F457 /* WJSimpleManager.swift */,
+				1FE94EA3226013F400C0F457 /* WJTableView.swift */,
+				1FE94E9C226013F300C0F457 /* WJTableViewProtocal.swift */,
+				1FE94EA4226013F400C0F457 /* WJVCExtension.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -253,10 +253,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = AMABUBL658;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = AMABUBL658;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -375,19 +377,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA76291225A52220008878A /* WJTableView.swift in Sources */,
-				BEA7629A225A52220008878A /* WJSimpleManager.swift in Sources */,
-				BEA76297225A52220008878A /* WJScrollExtension.swift in Sources */,
-				BEA76290225A52220008878A /* WJLayout.swift in Sources */,
-				BEA76293225A52220008878A /* WJTableViewProtocal.swift in Sources */,
-				BEA76295225A52220008878A /* WJPageTitleView.swift in Sources */,
+				1FE94EA7226013F400C0F457 /* WJTableViewProtocal.swift in Sources */,
+				1FE94EAC226013F400C0F457 /* WJSimpleManager.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				BEA76292225A52220008878A /* WJCollectionFlowLayout.swift in Sources */,
-				BEA76298225A52220008878A /* WJVCExtension.swift in Sources */,
-				BEA76299225A52220008878A /* WJPageView.swift in Sources */,
-				BEA76294225A52220008878A /* WJAdvancedManager.swift in Sources */,
-				BEA76296225A52220008878A /* WJDispatchQueue.swift in Sources */,
+				1FE94EA8226013F400C0F457 /* WJDispatchQueue.swift in Sources */,
+				1FE94EAD226013F400C0F457 /* WJLayout.swift in Sources */,
+				1FE94EAF226013F400C0F457 /* WJVCExtension.swift in Sources */,
+				1FE94EB0226013F400C0F457 /* WJPageTitleView.swift in Sources */,
+				1FE94EAA226013F400C0F457 /* WJPageView.swift in Sources */,
+				1FE94EA6226013F400C0F457 /* WJCollectionFlowLayout.swift in Sources */,
+				1FE94EA9226013F400C0F457 /* WJAdvancedManager.swift in Sources */,
+				1FE94EAE226013F400C0F457 /* WJTableView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				1FE94EAB226013F400C0F457 /* WJScrollExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +483,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -529,7 +531,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -539,6 +541,7 @@
 			baseConfigurationReference = AE0C282B65611A526FD6CE44 /* Pods-WJSwipeScrollViewLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AMABUBL658;
 				INFOPLIST_FILE = WJSwipeScrollViewLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -554,6 +557,7 @@
 			baseConfigurationReference = D927200371FCC2D6AD1A32DA /* Pods-WJSwipeScrollViewLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AMABUBL658;
 				INFOPLIST_FILE = WJSwipeScrollViewLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -568,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BCDD8EF1E864A96DAFB1FD5 /* Pods-WJSwipeScrollViewLib_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AMABUBL658;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -590,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D7391E943E01C652EBDE478 /* Pods-WJSwipeScrollViewLib_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AMABUBL658;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
